@@ -1,0 +1,14 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Sensitive Data
+.env
+
+# Large Files (Don't upload 50MB+ files to GitHub)
+data/*.csv
+model/*.pkl
+
+# OS files
+.DS_Store
