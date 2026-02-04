@@ -8,7 +8,7 @@ from utils.preprocess import clean_text
 def train_model():
     print("📂 Loading 50,000 IMDb reviews...")
     try:
-        df = pd.read_csv('data/IMDB Dataset.csv')
+        df = pd.read_csv('data/raw/IMDB Dataset.csv')
         
         # Convert text labels to numbers
         df['sentiment'] = df['sentiment'].map({'positive': 1, 'negative': 0})
